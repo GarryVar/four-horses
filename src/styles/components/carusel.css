@@ -1,0 +1,35 @@
+.carusel__controls {
+  display: flex;
+  column-gap: 16px;
+  justify-content: center;
+}
+
+.carusel__btn {
+  width: 36px;
+  height: 36px;
+
+  border-radius: 50%;
+  background-color: var(--base-dark-color);
+}
+
+.carusel__btn--active {
+  background-color: var(--base-gray-transparent);
+}
+
+.carusel__dots {
+  display: flex;
+  align-items: center;
+}
+
+.carusel__dot {
+  width: 10px;
+  height: 10px;
+  background-color: var(--base-dark-color);
+  margin-right: 6px;
+  border-radius: 50%;
+  ;
+}
+
+.carusel__dot:last-child {
+  margin-right: 0;
+}

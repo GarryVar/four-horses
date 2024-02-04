@@ -1,0 +1,73 @@
+html {
+        box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+        box-sizing: inherit;
+}
+
+body {
+        position: relative;
+
+        margin: 0;
+        padding: 0;
+        min-height: 100vh;
+        font-family: 'Golos Text', sans-serif;
+        color: var(--base-text-color);
+}
+
+a {
+        text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4 {
+        margin: 0;
+        padding: 0;
+}
+
+p {
+        margin: 0;
+        padding: 0;
+}
+
+button {
+        margin: 0;
+        padding: 0;
+
+        border: 0;
+        cursor: pointer;
+        transition: background-color ease-in 0.2s;
+}
+
+ul,
+ol {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+}
+
+
+.visually-hidden {
+        position: absolute;
+
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        padding: 0;
+        overflow: hidden;
+
+        border: none;
+
+        clip: rect(0, 0, 0, 0);
+}
+
+img {
+        display: block;
+        max-width: 100%;
+        object-fit: cover;
+}

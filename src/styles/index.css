@@ -1,0 +1,11 @@
+@import url('var.css');
+@import url('base.css');
+@import url('container.css');
+
+/* Components styles */
+@import url('components/main.css');
+@import url('components/hero.css');
+@import url('components/run-line.css');
+@import url('components/review.css');
+@import url('components/stages.css');
+@import url('components/carusel.css');
