@@ -52,6 +52,8 @@
   background-color: #D9D9D9;
 
   background-image: url('../img/stages-bg/1.png'), url('../img/stages-bg/2.png');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .stages__step-text {
