@@ -1,6 +1,5 @@
 :root {
   /* Base colors */
-
   --base-white: #ffffff;
   --base-orange: #FBCE51;
   --base-red: #F54932;
@@ -8,9 +7,9 @@
   --base-border-gray: #D0D0D0;
   --base-gray-transparent: #31313133;
 
-    /* Texts colors */
 
-    --base-text-color: #313131;
+  /* Texts colors */
+  --base-text-color: #313131;
   --blue-text-color: #3057A2;
 
   --base-dark-color: #1F1F1F;

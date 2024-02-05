@@ -8,3 +8,12 @@
 .main__header-logo {
     display: block;
 }
+
+.main__footer {
+    position: relative;
+    padding-top: 60px;
+}
+
+.main__footer-red-line {
+    top: 0;
+}

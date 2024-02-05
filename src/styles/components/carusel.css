@@ -1,15 +1,48 @@
+.carusel {
+  overflow: hidden;
+}
+
+.carusel__list {
+  display: flex;
+  column-gap: 20px;
+
+  margin-bottom: 28px;
+}
+
+.carusel__item {
+  width: 335px;
+
+  flex-shrink: 0;
+}
+
+
 .carusel__controls {
   display: flex;
   column-gap: 16px;
   justify-content: center;
 }
 
+.carusel__controls--type2 {
+  column-gap: 14px;
+  align-items: center;
+
+  padding-top: 12px;
+}
+
 .carusel__btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
   width: 36px;
   height: 36px;
 
   border-radius: 50%;
   background-color: var(--base-dark-color);
+}
+
+.carusel__btn--prev {
+  transform: rotate(180deg);
 }
 
 .carusel__btn--active {
