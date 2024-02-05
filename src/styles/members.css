@@ -1,0 +1,78 @@
+.members__body {
+  padding-top: 124px;
+  min-height: 806px;
+}
+
+/* .members__list {
+  display: grid;
+  grid-template-columns: repeat(5, 335pzx);
+} */
+
+.members__item {
+  display: flex;
+  flex-direction: column;
+
+  width: 335px;
+  height: 427px;
+
+  padding-top: 32px;
+  align-items: center;
+  padding-top: 39px;
+}
+
+.members__title {
+  font-family: Merriweather;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 110%;
+  text-transform: uppercase;
+}
+
+.members__picture {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+
+  margin-bottom: 28px;
+
+  width: 244px;
+  height: 244px;
+  background-image: url("../img/stages-bg/1.png");
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.members__name {
+  margin-bottom: 8px;
+
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 120%;
+}
+
+.members__status {
+  margin-bottom: 22px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 120%;
+  opacity: .6;
+}
+
+.members__more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 12px;
+
+  width: 110px;
+  height: 34px;
+
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 120%;
+  border-radius: 62px;
+  color: var(--blue-text-color);
+  background-color: transparent;
+  border: 2px solid var(--blue-text-color);
+}
