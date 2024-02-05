@@ -10,7 +10,7 @@
 }
 
 .carusel__item {
-  width: 335px;
+  flex-basis: 100%;
 
   flex-shrink: 0;
 }
