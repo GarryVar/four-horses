@@ -12,6 +12,7 @@
 .main__footer {
     position: relative;
     padding-top: 60px;
+    background-color: var(--base-background);
 }
 
 .main__footer-red-line {
