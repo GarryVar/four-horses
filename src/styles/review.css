@@ -36,9 +36,11 @@
 }
 
 .review__image--mobile {
-  position: absolute;
-  left: 2px;
-  top: 1446px;
+  min-height: 420px;
+  background-image: url("../img/picture2-mobile.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }
 
 .review__table {

@@ -5,16 +5,13 @@
     background-size: cover;
     padding-top: 91px;
     min-height: 812px;
-    overflow: hidden;
     background-color: var(--base-background);
 }
 
-/* 
+
 .hero__body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-} */
+    overflow: hidden;
+}
 
 .hero__slogan-container {
     margin-bottom: 23px;
